@@ -1,0 +1,20 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .btn-lime-500 {
+    @apply p-2 text-center bg-lime-500 hover:bg-lime-600 transition-colors duration-200 text-white;
+  }
+  .btn-lime-600 {
+    @apply p-2 text-center bg-lime-600 hover:bg-lime-700 transition-colors duration-200 text-white;
+  }
+  .btn-lime-800 {
+    @apply p-2 text-center bg-lime-800 hover:bg-lime-900 transition-colors duration-200 text-white;
+  }
+  .btn-red-500 {
+    @apply p-2 bg-red-500 hover:bg-red-700 transition-colors duration-200 text-white text-center;
+  }
+}
