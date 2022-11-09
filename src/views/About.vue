@@ -1,6 +1,6 @@
 <template>
 <div>
-  <app-header :bgImage="'/img/about/about_page_header_bg.png'">
+  <app-header :bgImage="`${$publicPath}img/about/about_page_header_bg.png`">
     <div class="app-container -mt-16 py-16 px-2 md:px-0">
       <div class="w-full h-48 md:py-8 mt-8 flex justify-center">
         <div class="flex justify-center items-center w-full md:w-4/12 bg-white border-t-4 border-lime-400">
@@ -21,7 +21,7 @@
   
   <div class="app-container flex flex-wrap my-0 md:my-8">
     <div class="w-full md:w-1/2">
-      <img src="/img/about/clients_1.png" />
+      <img :src="`${$publicPath}img/about/clients_1.png`" />
     </div>
     <div class="w-full md:w-1/2 xl:w-4/12 px-2 md:px-10 flex items-center">
       <div>
@@ -51,7 +51,7 @@
     <div class="app-container flex flex-wrap md:flex-nowrap gap-x-4">
       <div class="w-full md:w-1/2 border-t-4 border-lime-500 bg-white my-4 md:my-10 p-4 md:p-8 mx-2">
         <div class="h-28 flex items-center">
-          <img src="/img/about/about-us-icon1.png"/>
+          <img :src="`${$publicPath}img/about/about-us-icon1.png`"/>
         </div>
         <h1 class="text-3xl">Our Vision</h1>
         <p class="w-full md:w-8/12 py-4">
@@ -66,7 +66,7 @@
       </div>
       <div class="w-full md:w-1/2 border-t-4 border-lime-500 bg-white my-4 md:my-10 p-4 md:p-8 mx-2">
         <div class="h-28 flex items-center">
-          <img src="/img/about/about-us-icon2.png" />
+          <img :src="`${$publicPath}img/about/about-us-icon2.png`" />
         </div>
         <h1 class="text-3xl">Our Goal</h1>
         <p class="w-full md:w-8/12 py-4">

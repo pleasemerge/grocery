@@ -14,14 +14,16 @@
 
 <script>
 const loremIpsum = 'Aui dolorem iesum ruia dolor sit amet, consectetur, adipisci eius modi incidunt'
+const publicPath = process.env.BASE_URL
+
 export default {
   data () {
     return {
       feedbackItems: [
-        { img: '/img/quality_products.png', title: 'Quality Products', text: loremIpsum },
-        { img: '/img/online_order.png', title: 'Online Order', text: loremIpsum },
-        { img: '/img/free_delivery.png', title: 'Free Delivery', text: loremIpsum },
-        { img: '/img/24_7_service.png', title: '24/7 Service', text: loremIpsum },
+        { img: `${publicPath}img/quality_products.png`, title: 'Quality Products', text: loremIpsum },
+        { img: `${publicPath}img/online_order.png`, title: 'Online Order', text: loremIpsum },
+        { img: `${publicPath}img/free_delivery.png`, title: 'Free Delivery', text: loremIpsum },
+        { img: `${publicPath}img/24_7_service.png`, title: '24/7 Service', text: loremIpsum },
       ]
     }
   }

@@ -39,7 +39,7 @@
             & encrypted
           </div>
           <div class="mx-2">
-            <img src="/img/icons/lock_icon.png" width="25" />
+            <img :src="`${$publicPath}img/icons/lock_icon.png`" width="25" />
           </div>
         </div>
 
@@ -53,8 +53,8 @@
               
             </div>
             <div class="flex gap-2">
-              <img src="/img/icons/visa.png" width="40" />
-              <img src="/img/icons/mastercard.png" width="40" />
+              <img :src="`${$publicPath}img/icons/visa.png`" width="40" />
+              <img :src="`${$publicPath}img/icons/mastercard.png`" width="40" />
             </div>
           </div>
 
@@ -66,7 +66,7 @@
               </div>
             </div>
             <div class="flex gap-2">
-              <img src="/img/icons/paypal.png" width="50" />
+              <img :src="`${$publicPath}img/icons/paypal.png`" width="50" />
             </div>
           </div>
         </div>
@@ -126,7 +126,6 @@
               <span class="inline-block text-sm bg-gray-100 px-4 py-1 rounded-md">x{{item.length}}</span>
               <a href="javascript:;" class="border rounded-md py-1 px-2 mx-2" @click="removeFromCart({item: item[0]})">-</a>
             </div>
-            <!--<span class="block text-lime-700">${{(item[0].discountedPrice * item.length).toFixed(2)}}</span>-->
           
           </div>
         </div>
@@ -137,7 +136,6 @@
             
             <div class="absolute w-12  h-2 bg-lime-600 bottom-1 left-0 opacity-30" />
           </div>
-          <!--<manage-cart-item :item="item[0]" />-->
         </div>
       </div>
     </div>

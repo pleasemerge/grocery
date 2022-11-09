@@ -1,6 +1,6 @@
 <template>
 <div>
-  <app-header :bgImage="'/img/header_bg.png'">
+  <app-header :bgImage="`${$publicPath}img/header_bg.png`">
     <div class="app-container -mt-16 py-16 px-2 md:px-0">
       <div class="w-full md:w-1/2 py-2 md:py-8">
         <span class="block w-full text-lime-600 opacity-70">

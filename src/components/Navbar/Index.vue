@@ -8,7 +8,7 @@
   <div class="app-container flex justify-between">
     <div class="w-4/12 px-2 md:px-0">
       <router-link :to="{ name: 'Home' }">
-        <img src="/img/logo_new.png" />
+        <img :src="`${$publicPath}img/logo_new.png`" />
       </router-link>
     </div>
     <div class="w-8/12 hidden sm:flex items-center justify-end">
@@ -21,7 +21,7 @@
           {{link.name}}
         </router-link>
         <router-link :to="{ name: 'Cart' }" class="px-4 py-2 text-gray-600 bg-white hover:bg-gray-300 transition-colors duration-200 rounded-md border">
-          <img src="/img/icons/cart_icon.png" class="inline-block" />
+          <img :src="`${$publicPath}img/icons/cart_icon.png`" class="inline-block" />
            ${{total}}
         </router-link>
     </div>

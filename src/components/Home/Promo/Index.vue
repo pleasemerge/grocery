@@ -12,14 +12,15 @@
 </template>
 
 <script>
+const publicPath = process.env.BASE_URL
 export default {
   name: 'Promo',
   data () {
     return {
       promoItems: [
-        { text: 'Get Every Vegetable You Need', bgImage: '/img/promo1.png', bgColor: '#A0DED4', textColor: '#fff', group_id: 5 },
-        { text: 'We Have Best Beverages Collection', bgImage: '/img/promo2.png', bgColor: '#F48214', textColor: '#fff', group_id: 1 },
-        { text: 'Beauty And Health Products', bgImage: '/img/promo3.png', bgColor: '#9FCB22', textColor: '#fff', group_id: 10}
+        { text: 'Get Every Vegetable You Need', bgImage: `${publicPath}img/promo1.png`, bgColor: '#A0DED4', textColor: '#fff', group_id: 5 },
+        { text: 'We Have Best Beverages Collection', bgImage: `${publicPath}img/promo2.png`, bgColor: '#F48214', textColor: '#fff', group_id: 1 },
+        { text: 'Beauty And Health Products', bgImage: `${publicPath}img/promo3.png`, bgColor: '#9FCB22', textColor: '#fff', group_id: 10}
       ]
     }
   }

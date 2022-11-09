@@ -2,7 +2,7 @@
 <div class="text-white mx-2 md:mx-0">
   <div class="md:flex w-full relative bg-lime-500">
     <div class="hidden md:block relative">
-      <img src="/img/subscribe_form_img.png" width="350" class="transform -translate-x-20 translate-y-5 scale-105" />
+      <img :src="`${publicPath}/img/subscribe_form_img.png`" width="350" class="transform -translate-x-20 translate-y-5 scale-105" />
     </div>
     <div class="flex flex-wrap items-center justify-center gap-2 px-2">
       <div class="w-full flex justify-center flex-wrap">
@@ -23,6 +23,7 @@
 export default {
   data () {
     return {
+      publicPath: process.env.BASE_URL,
       text: ''
     }
   },

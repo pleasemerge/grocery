@@ -14,8 +14,8 @@ library.add(faBars, faFilter, faTimes, faCartArrowDown)
 
 const app = createApp(App)
 
+app.config.globalProperties.$publicPath = process.env.BASE_URL
 app.use(store)
 app.use(router)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
-

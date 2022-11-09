@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-wrap h-128 px-2 md:px-0" :style="{ backgroundImage: `url('/img/about_us_bg.png')` }">
+<div class="flex flex-wrap h-128 px-2 md:px-0" :style="{ backgroundImage: `url('${$publicPath}img/about_us_bg.png')` }">
   <div class="w-full md:w-1/2"></div>
   <div class="w-full md:w-1/2">
     <div class="w-full md:w-1/2 p-4 my-12 bg-white border-t-4 border-lime-500">
