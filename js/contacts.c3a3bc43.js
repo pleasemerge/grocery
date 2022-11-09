@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgrocery_new"]=self["webpackChunkgrocery_new"]||[]).push([[421],{4248:function(n,r,e){e.r(r),e.d(r,{default:function(){return f}});var t=e(6252);function u(n,r,e,u,c,a){return(0,t.wg)(),(0,t.iD)("div",null," Contact ")}var c={},a=e(3744);const o=(0,a.Z)(c,[["render",u]]);var f=o}}]);
+//# sourceMappingURL=contacts.c3a3bc43.js.map
