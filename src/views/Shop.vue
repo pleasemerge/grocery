@@ -143,7 +143,7 @@ export default {
       this.$store.dispatch('products/updateGroupsFilter', { group_id })
     },
     getGroupName ({ groupId }) {
-      return this.productGroups.find(g => g.id === groupId ).name
+      return this.productGroups.find(g => g.id === groupId).name
     },
     resetGroupsFilter () {
       this.$store.dispatch('products/resetGroupsFilter')
