@@ -1,4 +1,11 @@
-# grocery-new
+# Grocery
+
+Grocery store demo app. Backend is not implemented.
+
+- Vue 3
+- TailwindCSS
+- Vuex
+
 
 ## Project setup
 ```
@@ -14,11 +21,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
