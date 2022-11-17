@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgrocery"]=self["webpackChunkgrocery"]||[]).push([[239],{4482:function(r,n,e){e.r(n),e.d(n,{default:function(){return f}});var u=e(6252);function c(r,n,e,c,t,o){return(0,u.wg)(),(0,u.iD)("div",null," Blog ")}var t={},o=e(3744);const a=(0,o.Z)(t,[["render",c]]);var f=a}}]);
+//# sourceMappingURL=blog.f2f510ea.js.map
