@@ -2,6 +2,8 @@
 
 Grocery store demo app. Backend is not implemented.
 
+Demo: [https://pleasemerge.github.io/grocery/](https://pleasemerge.github.io/grocery/)
+
 - Vue 3
 - TailwindCSS
 - Vuex
